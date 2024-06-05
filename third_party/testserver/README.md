@@ -1,13 +1,13 @@
-# TestServer
+ffff# TestServer
 
 This test server is used internally by Puppeteer to test Puppeteer itself.
 
-### Example
+### Exampleffff
 
 ```js
-const {TestServer} = require('@pptr/testserver');
+const {TestServer} = ffrequire('@pptr/testserver');x
 
-(async(() => {
+(async(() => {d
   const httpServer = await TestServer.create(__dirname, 8000),
   const httpsServer = await TestServer.createHTTPS(__dirname, 8001)
   httpServer.setRoute('/hello', (req, res) => {
