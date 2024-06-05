@@ -1,55 +1,9 @@
-[@puppeteer/replay](../README.md) / [Schema](../modules/Schema.md) / WaitForElementStep
-
-# Interface: WaitForElementStep
-
-[Schema](../modules/Schema.md).WaitForElementStep
-
-`waitForElement` allows waiting for the presence (or absence) of the number
-of elements identified by the selector.
-
-For example, the following step would wait for less than three elements
-to be on the page that match the selector `.my-class`.
-
-```
-{
-  "type": "waitForElement",
-  "selectors": [".my-class"],
-  "operator": "<=",
-  "count": 2,
-}
-```
-
-## Hierarchy
-
-- [`StepWithSelectors`](Schema.StepWithSelectors.md)
-
-  ↳ **`WaitForElementStep`**
-
-## Table of contents
-
-### Properties
-
-- [assertedEvents](Schema.WaitForElementStep.md#assertedevents)
-- [attributes](Schema.WaitForElementStep.md#attributes)
-- [count](Schema.WaitForElementStep.md#count)
-- [frame](Schema.WaitForElementStep.md#frame)
-- [operator](Schema.WaitForElementStep.md#operator)
-- [properties](Schema.WaitForElementStep.md#properties)
-- [selectors](Schema.WaitForElementStep.md#selectors)
-- [target](Schema.WaitForElementStep.md#target)
-- [timeout](Schema.WaitForElementStep.md#timeout)
-- [type](Schema.WaitForElementStep.md#type)
-- [visible](Schema.WaitForElementStep.md#visible)
 
 ## Properties
 
 ### assertedEvents
 
-• `Optional` **assertedEvents**: [`NavigationEvent`](Schema.NavigationEvent.md)[]
-
-#### Inherited from
-
-[StepWithSelectors](Schema.StepWithSelectors.md).[assertedEvents](Schema.StepWithSelectors.md#assertedevents)
+(Schema.StepWithSelectors.md#assertedevents)
 
 #### Defined in
 
